@@ -1,0 +1,25 @@
+{
+  "name": "milight-http-server",
+  "version": "1.0.0",
+  "description": "Http server for relaying commands to milight bridge (using node-milight)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samhiatt/milight-http-server.git"
+  },
+  "keywords": [
+    "milight"
+  ],
+  "author": "Sam Hiatt <samhiatt@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samhiatt/milight-http-server/issues"
+  },
+  "homepage": "https://github.com/samhiatt/milight-http-server",
+  "dependencies": {
+    "node-milight": "git://github.com/samhiatt/node-milight"
+  }
+}
