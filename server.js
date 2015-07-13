@@ -6,10 +6,10 @@ const PORT=8037;
 
 function handleRequest(request, response){
     if (request.url=='/off') {
-        ctrl.off(0);
+        ctrl.off(1);
         response.end('OK. Lights off.');
     } else if (request.url=='/on') {
-        ctrl.on(0);
+        ctrl.on(1);
         response.end('OK. Lights on.');
     } else {
         response.end('Command not understood.');
