@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/samhiatt/milight-http-server",
   "dependencies": {
+    "express": "^4.13.1",
     "node-milight": "git://github.com/samhiatt/node-milight"
   }
 }
